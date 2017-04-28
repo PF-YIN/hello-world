@@ -1,0 +1,15 @@
+*.iml
+*.[oa]
+*.log
+# qufan 
+! 1.txt
+#ignore all files in dir /build
+build/
+
+#ignore doc/notes.txt but not doc/server/notes.txt
+doc/*.txt
+
+#ignore all files in the dir doc/
+doc/**/*.txt
+
+#test
